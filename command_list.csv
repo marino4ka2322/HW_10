@@ -1,6 +1,6 @@
     1  git config --global user.name 'Marina Bilyavska'
     2  git config --global user.email belyawskaya.marina26@gmail.com
-    3  git clone https://github.com/marino4ka2322/HW_10.-.git
+    3  git clone https://github.com/marino4ka2322/HW_10.git
     4  cd HW_10.-/
     5  touch text_ignore.txt
     6  nano .gitignore
