@@ -1,0 +1,27 @@
+    1  git config --global user.name 'Marina Bilyavska'
+    2  git config --global user.email belyawskaya.marina26@gmail.com
+    3  git clone https://github.com/marino4ka2322/HW_10.-.git
+    4  cd HW_10.-/
+    5  touch text_ignore.txt
+    6  nano .gitignore
+    7  git status
+    8  nano .gitignore
+    9  git add .
+   10  git commit -m "Додано файл .gitignore і файл text_ignore.txt для виключення з відстеження"
+   11  touch main_test.txt
+   12  git add .
+   13  git commit -m "Створено порожній файл main_test.txt"
+   14  git branch develop
+   15  git checkout develop
+   16  touch develop_test.txt
+   17  git add .
+   18  git commit -m "У гілці develop створено порожній файл develop_test.txt"
+   19  git branch
+   20  nano develop_test.txt
+   21  git status
+   22  git add .
+   23  git commit -m "Внесено зміни у файл develop_test.txt"
+   24  git checkout main
+   25  git merge develop
+   26  git log
+   27  history > command_list.csv
